@@ -1,9 +1,3 @@
----
-theme : "white"
-transition: "zoom"
-highlightTheme: "darkula"
----
-
 # vscode-reveal
 
 ### Awesome VS code extension using The HTML Presentation Framework Revealjs
@@ -66,19 +60,17 @@ Presentations look great on touch devices, like mobile phones and tablets. Simpl
 
 ---
 
+## Markdown support
 
-						## Markdown support
+Write content using inline or external Markdown.
+Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
 
-						Write content using inline or external Markdown.
-						Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
-
---
 ```
-						  ## Markdown support
+  ## Markdown support
 
-						  Write content using inline or external Markdown.
-						  Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
-						```
+  Write content using inline or external Markdown.
+  Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
+```
 
 ---
 
@@ -86,8 +78,10 @@ Presentations look great on touch devices, like mobile phones and tablets. Simpl
 
 Hit the next arrow...
 
-... to step through ...
-<span class="fragment">... a</span> <span class="fragment">fragmented</span> <span class="fragment">slide.</span>
+<p class="fragment">... to step through ...</p>
+<span class="fragment">... a</span> 
+<span class="fragment">fragmented</span> 
+<span class="fragment">slide.</span>
 
 Note:
 This slide has fragments which are also stepped through in the notes window.
@@ -139,7 +133,7 @@ reveal.js comes with a few themes built in:
 <!-- .slide: data-background="#dddddd" -->
 ## Slide Backgrounds
 
-Set `data-background="#dddddd"` on a slide to change the background color. All CSS color formats are supported.
+<p>Set `data-background="#dddddd"` on a slide to change the background color. All CSS color formats are supported.</p>
 						<a href="#" class="navigate-down">
 							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
 						</a>
